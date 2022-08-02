@@ -1,0 +1,90 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+
+
+.table {
+    border-collapse: collapse;
+    width:100%;
+}
+.table__Cell {
+    border: 1px solid grey;
+    padding: 15px;
+    text-align: center;
+}
+
+.table__caption {
+    caption-side: bottom;
+    text-align: right;
+}
+
+.table__Header {
+    background-color: blue;
+    color: white;
+}
+
+.table__Row:nth-child(even) {
+    background-color: rgba(192, 187, 187, 0.548);
+}
+
+.table__Row:hover {
+    background-color: rgb(7, 245, 35);
+}
+
+.section__container {
+    overflow-x: auto;
+}
+
+.header {
+    padding: 15px;
+    text-align: center;
+    text-shadow: 1px -2px 2px #0E020F;
+}
+
+.section__logo {
+    padding: 15px;
+    text-align: center;
+}
+.article__header {
+    padding: 15px;
+    text-align: center;
+    line-height: 2,0;
+}
+.section__header {
+    padding: 10px;
+    text-align: center;
+    line-height: 1,6;
+}
+.unorderedList__link {
+    color:rgb(4, 4, 161);
+    text-decoration: none;
+    padding: 2px;
+}
+.unorderedList__link:visited {
+    color:none;
+}
+.unorderedList__link:focus {
+outline: 2px solid currentColor;    
+}
+.unorderedList__link:hover {
+    color:rgb(6, 85, 34);
+    outline: none;
+}
+.unorderedList__link {
+    list-style-type:none;
+}
+.footer {
+    text-align: center;
+}
+.dark {
+    color:rgb(6, 6, 5);
+    background: #e7e5e5;
+}
+.nav {
+    text-align: left;
+}
