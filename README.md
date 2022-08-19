@@ -14,5 +14,5 @@ I use here BEM convention
 
 #### Samples
 
-![picture](https://github.com/RafalS10/homepage/blob/main/images/IMG_0630-1.jpg)
-![sample](https://github.com/RafalS10/homepage/blob/main/images/IMG_0631-1.jpg)
+![picture](https://github.com/RafalS10/homepage/blob/main/images/homepage.jpg)
+![sample](https://github.com/RafalS10/homepage/blob/main/images/homepage1.jpg)
